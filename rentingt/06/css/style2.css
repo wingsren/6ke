@@ -1,0 +1,122 @@
+a{
+	text-decoration: none;
+}
+#container{
+		width: 100%;
+		overflow-X: hidden;
+		background-color: white;
+			}
+#main{
+		width:97%;
+		margin: 0 auto;
+		height: 920px;
+		position: relative;
+			}
+.main-left{
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	background-color: white;
+	
+}
+.top{
+	border:2px solid black;
+	width: 70px;
+	text-align: center;
+	margin-top: 70px;
+	transition: all 0.3s;
+	
+}
+.top:hover{
+	transform: translateX(25px);
+	color: brown;
+}
+.mid{
+	text-align: left;
+	width: 100px;
+	margin-top: 50px;	
+}
+.mid a{
+	color: black;
+}
+ .mid a:hover{
+	color:steelblue;
+}
+.bottom{
+	text-align: left;
+	width: 100px;
+	margin-top: 50px;
+}
+.bottom a{
+	color:grey;	
+}
+.bottom a:hover{
+	font-size:25px;
+}
+.main-right{
+	height: 100%;
+	width:85% ;
+	position: absolute;
+	top:0;
+	left: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.product{
+	width: 600px;
+
+}
+.intro{
+	width: 45%;
+	text-align: left;
+}
+.intro a{
+	color: #333;
+}
+.intro h5{
+	color: #333;
+}
+.intro h2{
+	color: black;
+}
+.intro p{
+	width: 80%;
+	color: #333;
+	line-height: 37px;
+}
+.add{
+	margin-top: 30px;
+	width: 100%;
+}
+.add h2{
+	font-size: 18px;
+}
+.add button{
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	background-color: black;
+}
+.add p{
+	width: 100%;
+	background: #eee;
+	padding: 10px;
+	color:dimgray;
+	font-size: 20px;
+}
+.add a:hover{
+	color:steelblue;
+}
+.add span{
+	margin-right: 10px;
+}
+.add table td{
+	border-right: 1px solid darkgrey;
+}
+.add table .btn{
+	border:none;
+}
